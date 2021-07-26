@@ -21,9 +21,10 @@ const connection = mysql.createConnection({
 connection.connect();
 
 app.get('/api/customers', (req,res) => {
-    connection.query("SELECT * FROM CUSTOMER", (err, rows, fields) => {
+    connection.query(
+      "SELECT * FROM CUSTOMER", (err, rows, fields) => {
         res.send(rows);
-      }
+      }  
     );
 });
 
