@@ -1,7 +1,0 @@
-{
-    "host": "management-tutorial.cwbr4tqs4ccb.us-east-2.rds.amazonaws.com",
-    "user": "user",
-    "password": "dbtlavlf1!",
-    "port": "3306",
-    "database": "management"
-}
